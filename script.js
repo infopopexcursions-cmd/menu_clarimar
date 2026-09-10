@@ -85,7 +85,7 @@ const menuData = [
       },
 
       {
-        name: "Alita",
+        name: "Alitas a la BBQ",
         price: 15,
         image: "images/j4.jpeg",
         icon: "🍗",
