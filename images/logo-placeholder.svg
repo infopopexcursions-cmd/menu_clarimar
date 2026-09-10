@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180">
+      <rect width="500" height="180" rx="35" fill="#e9f9fc"/>
+      <circle cx="100" cy="90" r="58" fill="#159fc7"/>
+      <path d="M68 105c22-48 49-56 68-21 12 22 30 30 55 15 30-18 51-3 63 20H68z" fill="#fff"/>
+      <text x="190" y="98" font-family="Arial" font-size="50" font-weight="800" fill="#075d83">LARIMAR</text>
+      <text x="192" y="130" font-family="Arial" font-size="23" font-weight="700" fill="#f39a3d">Chill Zone</text>
+    </svg>

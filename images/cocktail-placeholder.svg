@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+      <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#d8f5fb"/><stop offset="1" stop-color="#8fd4e3"/></linearGradient></defs>
+      <rect width="500" height="350" rx="35" fill="url(#g)"/>
+      <circle cx="250" cy="175" r="100" fill="#fff" opacity=".8"/>
+      <text x="250" y="210" text-anchor="middle" font-size="100">🍹</text>
+    </svg>
