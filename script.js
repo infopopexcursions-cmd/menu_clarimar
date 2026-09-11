@@ -681,13 +681,17 @@ function createMenuCard(item, section, index) {
       data-index="${index}"
     >
 
-      <div class="item-image">
-        ${imageHTML}
+<div class="item-image">
+  ${imageHTML}
 
-        <div class="price">
-          ${formatPrice(item.price, item.rdPrice)}
-        </div>
-      </div>
+  <div class="view-hint">
+    <span>VER</span>
+  </div>
+
+  <div class="price">
+    ${formatPrice(item.price, item.rdPrice)}
+  </div>
+</div>
 
       <div class="item-info">
 
