@@ -2060,3 +2060,52 @@ input {
     max-height: 84vh !important;
   }
 }
+/* =========================================================
+   INDICADOR DINÁMICO "VER"
+========================================================= */
+
+.item-image {
+  position: relative;
+}
+
+.view-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  padding: 7px 17px;
+
+  border-radius: 30px;
+
+  background: rgba(0, 65, 90, 0.82);
+  color: #ffffff;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  pointer-events: none;
+
+  animation: verFlotando 1.8s ease-in-out infinite;
+}
+
+@keyframes verFlotando {
+
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 0.75;
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(-6px);
+    opacity: 1;
+  }
+
+}
