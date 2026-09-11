@@ -2061,51 +2061,117 @@ input {
   }
 }
 /* =========================================================
-   INDICADOR DINÁMICO "VER"
+   INDICADOR "VER" - EFECTO HORIZONTAL
 ========================================================= */
 
 .item-image {
   position: relative;
+  overflow: hidden;
 }
 
+/* Capa del indicador */
 .view-hint {
   position: absolute;
-  left: 50%;
-  bottom: 14px;
-  transform: translateX(-50%);
-  z-index: 10;
 
-  padding: 7px 17px;
+  top: 50%;
+  left: -80px;
 
-  border-radius: 30px;
+  transform: translateY(-50%);
 
-  background: rgba(0, 65, 90, 0.82);
-  color: #ffffff;
-
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 2px;
-
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  z-index: 8;
 
   pointer-events: none;
 
-  animation: verFlotando 1.8s ease-in-out infinite;
+  white-space: nowrap;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+
+  color: rgba(255, 255, 255, 0.95);
+
+  text-shadow:
+    0 1px 4px rgba(0, 0, 0, 0.45);
+
+  animation: verHorizontal 4s ease-in-out infinite;
 }
 
-@keyframes verFlotando {
+/* Movimiento de izquierda → derecha */
+@keyframes verHorizontal {
 
-  0%,
-  100% {
-    transform: translateX(-50%) translateY(0);
-    opacity: 0.75;
+  0% {
+    left: -80px;
+    opacity: 0;
   }
 
-  50% {
-    transform: translateX(-50%) translateY(-6px);
+  10% {
     opacity: 1;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: calc(100% + 80px);
+    opacity: 0;
+  }
+
+}
+
+
+/* Pequeña línea de luz detrás del texto */
+.view-hint::before {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  right: calc(100% + 8px);
+
+  width: 45px;
+  height: 1px;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  transform: translateY(-50%);
+}
+
+
+/* Línea que continúa después de VER */
+.view-hint::after {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  left: calc(100% + 8px);
+
+  width: 45px;
+  height: 1px;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  transform: translateY(-50%);
+}
+
+
+/* =========================================================
+   MÓVIL
+========================================================= */
+
+@media (max-width: 720px) {
+
+  .view-hint {
+    font-size: 11px;
+    letter-spacing: 2.5px;
+
+    animation-duration: 3.5s;
   }
 
 }
