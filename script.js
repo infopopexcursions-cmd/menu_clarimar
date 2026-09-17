@@ -111,7 +111,7 @@ const menuData = [
       {
         name: "Steak Sandwich",
         price: 15,
-        image: "images/j17.jpg",
+        image: "images/j1.jpg",
         icon: "🥪",
         description: "Sándwich de steak."
       },
@@ -141,7 +141,7 @@ const menuData = [
       },
 
       {
-        name: "Pescado Cotorra",
+        name: "Pescado frito",
         price: 25,
         image: "images/j6.jpg",
         icon: "🐟",
