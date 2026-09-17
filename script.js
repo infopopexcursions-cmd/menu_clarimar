@@ -125,11 +125,11 @@ const menuData = [
       },
 
       {
-        name: "HotDogs",
+        name: "Costillitas BBQ",
         price: 15,
-        image: "images/j1.jpeg",
-        icon: "🌭",
-        description: "HotDog dominicano."
+        image: "images/.jpeg",
+        icon: "",
+        description: "Costillitas con salsa BBQ."
       },
 
       {
