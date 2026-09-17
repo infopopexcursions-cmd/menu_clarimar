@@ -244,7 +244,7 @@ const menuData = [
       {
         name: "Chinola",
         price: null,
-        image: "images/h4.jpg",
+        image: "images/h4.jpeg",
         icon: "🥭",
         description: "Smoothie de chinola."
       },
@@ -268,9 +268,9 @@ const menuData = [
       {
         name: "Fruta fresca",
         price: null,
-        image: "images/h7.jpg",
+        image: "images/h7.jpeg",
         icon: "🍍",
-        description: "Smoothie de fruta fresca."
+        description: "Smoothie Verde."
       }
 
     ]
@@ -328,7 +328,7 @@ const menuData = [
         name: "Piña Colada",
         rdPrice: 300,
         price: rdToUsd(300),
-        image: "images/c4.jpg",
+        image: "images/h5.jpeg",
         icon: "🍍",
         description: "Cóctel tropical."
       },
