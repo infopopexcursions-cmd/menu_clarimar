@@ -39,7 +39,7 @@ const menuData = [
       {
         name: "Hamburguesa",
         price: 12,
-        image: "images/j20.jpg",
+        image: "images/j20.jpeg",
         icon: "🍔",
         description: "Hamburguesa estilo casa."
       },
@@ -47,7 +47,7 @@ const menuData = [
       {
         name: "Fajita de pollo",
         price: 15,
-        image: "images/j19.jpg",
+        image: "images/j19.jpeg",
         icon: "🌮",
         description: "Fajitas de pollo."
       },
