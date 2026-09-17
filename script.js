@@ -111,7 +111,7 @@ const menuData = [
       {
         name: "Steak Sandwich",
         price: 15,
-        image: "images/j1.jpg",
+        image: "images/j1.jpeg",
         icon: "🥪",
         description: "Sándwich de steak."
       },
