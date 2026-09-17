@@ -307,6 +307,15 @@ const menuData = [
       },
 
       {
+        name: "Mojito Chinola",
+        rdPrice: 350,
+        price: rdToUsd(350),
+        image: "images/c26.jpeg",
+        icon: "🥥",
+        description: "Mojito de Chinola."
+      },
+
+      {
         name: "Sex on the Beach",
         rdPrice: 300,
         price: rdToUsd(300),
