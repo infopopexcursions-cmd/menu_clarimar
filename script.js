@@ -127,7 +127,7 @@ const menuData = [
       {
         name: "Costillitas BBQ",
         price: 15,
-        image: "images/.jpeg",
+        image: "images/j11.jpg",
         icon: "",
         description: "Costillitas con salsa BBQ."
       },
