@@ -39,7 +39,7 @@ const menuData = [
     {
       name: "Hamburguesa",
       rdPrice: 400,
-      price: rdToUsd(400),
+      price: 12,
       image: "images/j20.jpeg",
       icon: "🍔",
       description: "Hamburguesa estilo casa."
