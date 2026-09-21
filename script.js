@@ -57,7 +57,7 @@ const menuData = [
     {
       name: "Fajita de res",
       rdPrice: 600,
-      price: rdToUsd(600),
+      price: 15,
       image: "images/j18.jpg",
       icon: "🥩",
       description: "Fajitas de res."
@@ -66,7 +66,7 @@ const menuData = [
     {
       name: "Carne salada",
       rdPrice: 600,
-      price: rdToUsd(600),
+      price: 15,
       image: "images/j3.jpeg",
       icon: "🥩",
       description: "Carne salada preparada al estilo de la casa."
@@ -75,7 +75,7 @@ const menuData = [
     {
       name: "Mofongo de chicharrón",
       rdPrice: 1200,
-      price: rdToUsd(1200),
+      price: 20,
       image: "images/j5.jpeg",
       icon: "🍌",
       description: "Mofongo tradicional con chicharrón."
@@ -84,7 +84,7 @@ const menuData = [
     {
       name: "Mofongo de camarones",
       rdPrice: 1500,
-      price: rdToUsd(1500),
+      price: 25,
       image: "images/j9.jpg",
       icon: "🍤",
       description: "Mofongo con camarones."
@@ -93,7 +93,7 @@ const menuData = [
     {
       name: "Alitas a la BBQ",
       rdPrice: 600,
-      price: rdToUsd(600),
+      price: 15,
       image: "images/j4.jpeg",
       icon: "🍗",
       description: "Alitas preparadas al estilo de la casa."
@@ -101,7 +101,7 @@ const menuData = [
 
     {
       name: "3 Golpe Mangu",
-      rdPrice: 650,
+      rdPrice: 20,
       price: rdToUsd(20),
       image: "images/j15.jpg",
       icon: "🍳",
@@ -120,7 +120,7 @@ const menuData = [
     {
       name: "Steak Sandwich",
       rdPrice: 600,
-      price: rdToUsd(600),
+      price: 15,
       image: "images/j1.jpeg",
       icon: "🥪",
       description: "Sándwich de steak."
@@ -129,7 +129,7 @@ const menuData = [
     {
       name: "Pechurina",
       rdPrice: 450,
-      price: rdToUsd(15),
+      price: 15,
       image: "images/j2.jpeg",
       icon: "🍗",
       description: "Pechurina preparada al estilo de la casa."
@@ -137,8 +137,8 @@ const menuData = [
 
     {
       name: "Costillitas BBQ",
-      rdPrice: 15,
-      price: rdToUsd(15),
+      rdPrice: 850,
+      price: 15,
       image: "images/j11.jpg",
       icon: "",
       description: "Costillitas con salsa BBQ."
@@ -165,7 +165,7 @@ const menuData = [
     {
       name: "Camarón",
       rdPrice: 1400,
-      price: rdToUsd(1400),
+      price: 27,
       image: "images/j14.jpg",
       icon: "🍤",
       description: "Disponible al ajillo, a la crema o criollo."
