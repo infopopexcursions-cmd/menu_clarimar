@@ -101,8 +101,8 @@ const menuData = [
 
     {
       name: "3 Golpe Mangu",
-      rdPrice: 20,
-      price: rdToUsd(20),
+      rdPrice: 650,
+      price: 20,
       image: "images/j15.jpg",
       icon: "🍳",
       description: "Mangú con tres golpes. Consultar disponibilidad."
