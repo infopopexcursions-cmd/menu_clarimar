@@ -48,7 +48,7 @@ const menuData = [
     {
       name: "Fajita de pollo",
       rdPrice: 550,
-      price: rdToUsd(550),
+      price: 15,
       image: "images/j19.jpeg",
       icon: "🌮",
       description: "Fajitas de pollo."
