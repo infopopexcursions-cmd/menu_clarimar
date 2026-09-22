@@ -323,7 +323,7 @@ const menuData = [
       {
         name: "Mojito Chinola",
         rdPrice: 350,
-        price: 8,
+        price: 9,
         image: "images/c26.jpeg",
         icon: "🥥",
         description: "Mojito de Chinola."
