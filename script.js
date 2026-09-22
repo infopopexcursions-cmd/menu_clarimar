@@ -188,7 +188,7 @@ const menuData = [
       {
         name: "On the Wheels",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/ss1.jpg",
         icon: "🍹",
         description: "Especialidad de la casa."
@@ -197,7 +197,7 @@ const menuData = [
       {
         name: "Clarimar",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/ss2.jpg",
         icon: "🌊",
         description: "Especialidad de la casa."
@@ -206,7 +206,7 @@ const menuData = [
       {
         name: "Scuba Coral Reef",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/ss3.jpg",
         icon: "🐚",
         description: "Especialidad de la casa."
@@ -232,7 +232,7 @@ const menuData = [
       {
         name: "Con alcohol",
         rdPrice: 275,
-        price: rdToUsd(275),
+        price: 7,
         image: "images/h1.jpg",
         icon: "🍓",
         description: "Smoothie preparado con fruta."
@@ -241,7 +241,7 @@ const menuData = [
       {
         name: "Sin alcohol",
         rdPrice: 250,
-        price: rdToUsd(250),
+        price: 6,
         image: "images/h2.jpg",
         icon: "🥤",
         description: "Smoothie sin alcohol."
@@ -305,7 +305,7 @@ const menuData = [
       {
         name: "Mojito",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c1.jpg",
         icon: "🍸",
         description: "Chinola, fresa, limón o blue."
@@ -314,7 +314,7 @@ const menuData = [
       {
         name: "Mojito Coco",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c2.jpg",
         icon: "🥥",
         description: "Mojito de coco."
@@ -323,7 +323,7 @@ const menuData = [
       {
         name: "Mojito Chinola",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 8,
         image: "images/c26.jpeg",
         icon: "🥥",
         description: "Mojito de Chinola."
@@ -332,7 +332,7 @@ const menuData = [
       {
         name: "Sex on the Beach",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c3.jpg",
         icon: "🍹",
         description: "Cóctel clásico."
@@ -341,7 +341,7 @@ const menuData = [
       {
         name: "Piña Colada",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/h5.jpeg",
         icon: "🍍",
         description: "Cóctel tropical."
@@ -350,7 +350,7 @@ const menuData = [
       {
         name: "Gin Tonic",
         rdPrice: 400,
-        price: rdToUsd(400),
+        price: 9,
         image: "images/c5.jpg",
         icon: "🍸",
         description: "Gin tonic."
@@ -359,7 +359,7 @@ const menuData = [
       {
         name: "Margarita Devil",
         rdPrice: 400,
-        price: rdToUsd(400),
+        price: 10,
         image: "images/c6.jpg",
         icon: "🌶️",
         description: "Margarita con toque picante."
@@ -368,7 +368,7 @@ const menuData = [
       {
         name: "Margarita",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c7.jpg",
         icon: "🍹",
         description: "Chinola, fresa, limón o blue."
@@ -377,7 +377,7 @@ const menuData = [
       {
         name: "Tinto de Verano",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c8.jpg",
         icon: "🍷",
         description: "Tinto de verano."
@@ -386,7 +386,7 @@ const menuData = [
       {
         name: "Long Island Blue",
         rdPrice: 400,
-        price: rdToUsd(400),
+        price: 10,
         image: "images/c9.jpg",
         icon: "🧊",
         description: "Long Island en versión blue."
@@ -395,7 +395,7 @@ const menuData = [
       {
         name: "Long Island Normal",
         rdPrice: 400,
-        price: rdToUsd(400),
+        price: 10,
         image: "images/c10.jpg",
         icon: "🍹",
         description: "Long Island clásico."
@@ -404,7 +404,7 @@ const menuData = [
       {
         name: "Bananamama",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c11.jpg",
         icon: "🍌",
         description: "Cóctel tropical de banana."
@@ -413,7 +413,7 @@ const menuData = [
       {
         name: "Orgasmo",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c12.jpg",
         icon: "🍸",
         description: "Cóctel de la casa."
@@ -422,7 +422,7 @@ const menuData = [
       {
         name: "Red Apple",
         rdPrice: 275,
-        price: rdToUsd(275),
+        price: 7,
         image: "images/c13.jpg",
         icon: "🍎",
         description: "Cóctel de manzana."
@@ -431,7 +431,7 @@ const menuData = [
       {
         name: "Bailey Martini",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c14.jpg",
         icon: "🍸",
         description: "Martini con Baileys."
@@ -440,7 +440,7 @@ const menuData = [
       {
         name: "Blue Lagoon",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c15.jpg",
         icon: "🌊",
         description: "Cóctel azul tropical."
@@ -449,7 +449,7 @@ const menuData = [
       {
         name: "Black Russian",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c16.jpg",
         icon: "🥃",
         description: "Cóctel clásico."
@@ -458,7 +458,7 @@ const menuData = [
       {
         name: "Blue Monday",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c17.jpg",
         icon: "💙",
         description: "Cóctel clásico en azul."
@@ -467,7 +467,7 @@ const menuData = [
       {
         name: "Screwdriver",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c18.jpg",
         icon: "🍊",
         description: "Cóctel de naranja."
@@ -476,7 +476,7 @@ const menuData = [
       {
         name: "Blue Hawái",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c19.jpg",
         icon: "🌴",
         description: "Cóctel tropical azul."
@@ -485,7 +485,7 @@ const menuData = [
       {
         name: "Mai Tai",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c20.jpg",
         icon: "🍹",
         description: "Cóctel tropical."
@@ -494,7 +494,7 @@ const menuData = [
       {
         name: "Tequila Rose",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c21.jpg",
         icon: "🌹",
         description: "Cóctel con Tequila Rose."
@@ -503,7 +503,7 @@ const menuData = [
       {
         name: "Dirty Monkey",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 9,
         image: "images/c22.jpg",
         icon: "🍌",
         description: "Cóctel tropical."
@@ -512,7 +512,7 @@ const menuData = [
       {
         name: "Daiquiri",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 8,
         image: "images/c23.jpg",
         icon: "🍋",
         description: "Daiquiri."
@@ -521,7 +521,7 @@ const menuData = [
       {
         name: "Cuba Libre",
         rdPrice: 250,
-        price: rdToUsd(250),
+        price: 6,
         image: "images/c24.jpg",
         icon: "🥤",
         description: "Cuba Libre."
@@ -530,7 +530,7 @@ const menuData = [
       {
         name: "Santo Libre",
         rdPrice: 250,
-        price: rdToUsd(250),
+        price: 6,
         image: "images/c25.jpg",
         icon: "🍋",
         description: "Santo Libre."
@@ -554,7 +554,7 @@ const menuData = [
       {
         name: "Mamajuana",
         rdPrice: 125,
-        price: rdToUsd(125),
+        price: 4,
         image: "images/s1.jpg",
         icon: "🥃",
         description: "Shot dominicano."
@@ -563,7 +563,7 @@ const menuData = [
       {
         name: "Fireball",
         rdPrice: 175,
-        price: rdToUsd(175),
+        price: 6,
         image: "images/s2.jpg",
         icon: "🔥",
         description: "Shot Fireball."
@@ -572,7 +572,7 @@ const menuData = [
       {
         name: "Cielo Nublado",
         rdPrice: 200,
-        price: rdToUsd(200),
+        price: 5,
         image: "images/s3.jpg",
         icon: "☁️",
         description: "Shot de la casa."
@@ -581,7 +581,7 @@ const menuData = [
       {
         name: "Café Celeste",
         rdPrice: 200,
-        price: rdToUsd(200),
+        price: 4,
         image: "images/s4.jpg",
         icon: "☕",
         description: "Shot de café."
@@ -590,7 +590,7 @@ const menuData = [
       {
         name: "José Cuervo",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 7,
         image: "images/s5.jpg",
         icon: "🥃",
         description: "Shot de tequila."
@@ -599,7 +599,7 @@ const menuData = [
       {
         name: "Patrón",
         rdPrice: 350,
-        price: rdToUsd(350),
+        price: 8,
         image: "images/s6.jpg",
         icon: "🥃",
         description: "Shot de tequila."
@@ -608,7 +608,7 @@ const menuData = [
       {
         name: "Sambuca",
         rdPrice: 300,
-        price: rdToUsd(300),
+        price: 7,
         image: "images/s7.jpg",
         icon: "🥃",
         description: "Shot de Sambuca."
