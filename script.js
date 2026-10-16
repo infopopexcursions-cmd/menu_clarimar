@@ -629,29 +629,14 @@ function rdToUsd(rd) {
 }
 
 
+
 /* ======================================================
-   FORMATO DE PRECIO
+   FORMATO DE PRECIO: SOLO USD
 ====================================================== */
 
-function formatPrice(price, rdPrice = null) {
-
+function formatPrice(price) {
   if (price === null || price === undefined) {
     return "Consultar";
-  }
-
-  if (rdPrice !== null && rdPrice !== undefined) {
-
-    return `
-      <span class="price-rd">
-        RD$${rdPrice.toFixed(0)}
-      </span>
-
-      <span class="price-separator">|</span>
-
-      <span class="price-usd">
-        $${price.toFixed(2)} USD
-      </span>
-    `;
   }
 
   return `
@@ -660,6 +645,7 @@ function formatPrice(price, rdPrice = null) {
     </span>
   `;
 }
+
 
 
 /* ======================================================
