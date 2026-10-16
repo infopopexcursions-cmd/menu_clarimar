@@ -1,4 +1,4 @@
-```javascript
+
 /*
 ========================================================
  LARIMAR CHILL ZONE - MENÚ DIGITAL
@@ -1196,4 +1196,3 @@ document.addEventListener(
 
   }
 );
-```
