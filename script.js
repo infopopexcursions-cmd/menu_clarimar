@@ -1,4 +1,3 @@
-```javascript
 /*
 ========================================================
  LARIMAR CHILL ZONE - MENÚ DIGITAL
@@ -43,7 +42,7 @@ const menuData = [
       price: 12,
       image: "images/j20.jpeg",
       icon: "🍔",
-      description: "Una opción clásica, ideal para disfrutar de un buen bocado."
+      description: "Hamburguesa estilo casa."
     },
 
     {
@@ -52,7 +51,7 @@ const menuData = [
       price: 15,
       image: "images/j19.jpeg",
       icon: "🌮",
-      description: "Tiras de pollo sazonadas, perfectas para una comida llena de sabor."
+      description: "Fajitas de pollo."
     },
 
     {
@@ -61,7 +60,7 @@ const menuData = [
       price: 15,
       image: "images/j18.jpg",
       icon: "🥩",
-      description: "Una alternativa sabrosa para quienes prefieren el sabor de la carne de res."
+      description: "Fajitas de res."
     },
 
     {
@@ -70,7 +69,7 @@ const menuData = [
       price: 15,
       image: "images/j3.jpeg",
       icon: "🥩",
-      description: "Una preparación de sabor intenso, ideal para los amantes de la carne."
+      description: "Carne salada preparada al estilo de la casa."
     },
 
     {
@@ -79,7 +78,7 @@ const menuData = [
       price: 20,
       image: "images/j5.jpeg",
       icon: "🍌",
-      description: "Una combinación tradicional dominicana con textura y sabor irresistibles."
+      description: "Mofongo tradicional con chicharrón."
     },
 
     {
@@ -88,7 +87,7 @@ const menuData = [
       price: 25,
       image: "images/j9.jpg",
       icon: "🍤",
-      description: "Una opción con sabor a mar para quienes disfrutan de los mariscos."
+      description: "Mofongo con camarones."
     },
 
     {
@@ -97,7 +96,7 @@ const menuData = [
       price: 15,
       image: "images/j4.jpeg",
       icon: "🍗",
-      description: "Jugosas piezas cubiertas con una salsa de sabor ahumado y ligeramente dulce."
+      description: "Alitas preparadas al estilo de la casa."
     },
 
     {
@@ -106,7 +105,7 @@ const menuData = [
       price: 20,
       image: "images/j15.jpg",
       icon: "🍳",
-      description: "Un desayuno dominicano tradicional, perfecto para comenzar el día. Consultar disponibilidad."
+      description: "Mangú con tres golpes. Consultar disponibilidad."
     },
 
     {
@@ -115,7 +114,7 @@ const menuData = [
       price: null,
       image: "images/j21.jpg",
       icon: "🥓",
-      description: "Una opción crujiente para compartir o acompañar tu comida. Precio por libra; consultar."
+      description: "Precio por libra. Consultar."
     },
 
     {
@@ -124,7 +123,7 @@ const menuData = [
       price: 15,
       image: "images/j1.jpeg",
       icon: "🥪",
-      description: "Una combinación práctica y sabrosa para disfrutar en cualquier momento."
+      description: "Sándwich de steak."
     },
 
     {
@@ -133,7 +132,7 @@ const menuData = [
       price: 15,
       image: "images/j2.jpeg",
       icon: "🍗",
-      description: "Bocados de pollo ideales para disfrutar solos o acompañados."
+      description: "Pechurina preparada al estilo de la casa."
     },
 
     {
@@ -142,7 +141,7 @@ const menuData = [
       price: 15,
       image: "images/j11.jpg",
       icon: "",
-      description: "Una opción jugosa con notas dulces y ahumadas en cada bocado."
+      description: "Costillitas con salsa BBQ."
     },
 
     {
@@ -151,7 +150,7 @@ const menuData = [
       price: null,
       image: "images/j16.jpg",
       icon: "🐟",
-      description: "Una alternativa del mar ideal para disfrutar de una buena comida. Precio por libra; consultar."
+      description: "Precio por libra."
     },
 
     {
@@ -160,7 +159,7 @@ const menuData = [
       price: null,
       image: "images/j6.jpg",
       icon: "🐟",
-      description: "Una preparación tradicional para quienes disfrutan del sabor del pescado. Precio por libra; consultar."
+      description: "Precio por libra."
     },
 
     {
@@ -169,7 +168,7 @@ const menuData = [
       price: 27,
       image: "images/j14.jpg",
       icon: "🍤",
-      description: "Elige entre una preparación al ajillo, cremosa o con sazón criolla."
+      description: "Disponible al ajillo, a la crema o criollo."
     }
 
   ]
@@ -192,7 +191,7 @@ const menuData = [
         price: 8,
         image: "images/ss1.jpg",
         icon: "🍹",
-        description: "Una propuesta especial para acompañar tus momentos de relax."
+        description: "Especialidad de la casa."
       },
 
       {
@@ -201,7 +200,7 @@ const menuData = [
         price: 8,
         image: "images/ss2.jpg",
         icon: "🌊",
-        description: "Una opción refrescante para disfrutar del ambiente caribeño."
+        description: "Especialidad de la casa."
       },
 
       {
@@ -210,7 +209,7 @@ const menuData = [
         price: 9,
         image: "images/ss3.jpg",
         icon: "🐚",
-        description: "Una creación de la casa para quienes buscan algo diferente."
+        description: "Especialidad de la casa."
       }
 
     ]
@@ -236,7 +235,7 @@ const menuData = [
         price: 7,
         image: "images/h1.jpg",
         icon: "🍓",
-        description: "Una mezcla frutal con un toque especial para disfrutar con calma."
+        description: "Smoothie preparado con fruta."
       },
 
       {
@@ -245,7 +244,7 @@ const menuData = [
         price: 6,
         image: "images/h2.jpg",
         icon: "🥤",
-        description: "Una alternativa refrescante para disfrutar en cualquier momento."
+        description: "Smoothie sin alcohol."
       },
 
       {
@@ -253,7 +252,7 @@ const menuData = [
         price: null,
         image: "images/h3.jpg",
         icon: "🍓",
-        description: "El dulzor de esta fruta crea una bebida suave y refrescante."
+        description: "Smoothie de fresa."
       },
 
       {
@@ -261,7 +260,7 @@ const menuData = [
         price: null,
         image: "images/h4.jpeg",
         icon: "🥭",
-        description: "Un toque tropical con el característico sabor entre dulce y ácido de la fruta."
+        description: "Smoothie de chinola."
       },
 
       {
@@ -269,7 +268,7 @@ const menuData = [
         price: null,
         image: "images/h5.jpg",
         icon: "🍋",
-        description: "Una opción cítrica y refrescante, ideal para los días calurosos."
+        description: "Smoothie de limón."
       },
 
       {
@@ -277,7 +276,7 @@ const menuData = [
         price: null,
         image: "images/h6.jpg",
         icon: "🍹",
-        description: "Una combinación de sabores frutales para quienes prefieren variedad."
+        description: "Smoothie mixto."
       },
 
       {
@@ -285,7 +284,7 @@ const menuData = [
         price: null,
         image: "images/h7.jpeg",
         icon: "🍍",
-        description: "Una opción frutal para disfrutar de una pausa refrescante."
+        description: "Smoothie Verde."
       }
 
     ]
@@ -309,7 +308,7 @@ const menuData = [
         price: 8,
         image: "images/c1.jpg",
         icon: "🍸",
-        description: "Personalízalo con tu sabor favorito: chinola, fresa, limón o blue."
+        description: "Chinola, fresa, limón o blue."
       },
 
       {
@@ -318,7 +317,7 @@ const menuData = [
         price: 9,
         image: "images/c2.jpg",
         icon: "🥥",
-        description: "Una combinación refrescante con un toque tropical de coco."
+        description: "Mojito de coco."
       },
 
       {
@@ -327,7 +326,7 @@ const menuData = [
         price: 9,
         image: "images/c26.jpeg",
         icon: "🥥",
-        description: "El equilibrio entre notas cítricas y el sabor tropical de la chinola."
+        description: "Mojito de Chinola."
       },
 
       {
@@ -336,7 +335,7 @@ const menuData = [
         price: 8,
         image: "images/c3.jpg",
         icon: "🍹",
-        description: "Una mezcla frutal popular, ideal para disfrutar en un ambiente relajado."
+        description: "Cóctel clásico."
       },
 
       {
@@ -345,7 +344,7 @@ const menuData = [
         price: 8,
         image: "images/h5.jpeg",
         icon: "🍍",
-        description: "Una combinación cremosa que evoca el sabor de las vacaciones tropicales."
+        description: "Cóctel tropical."
       },
 
       {
@@ -354,7 +353,7 @@ const menuData = [
         price: 9,
         image: "images/c5.jpg",
         icon: "🍸",
-        description: "Una mezcla clásica con notas botánicas y un acabado refrescante."
+        description: "Gin tonic."
       },
 
       {
@@ -363,7 +362,7 @@ const menuData = [
         price: 10,
         image: "images/c6.jpg",
         icon: "🌶️",
-        description: "Una propuesta atrevida para quienes disfrutan de un toque picante."
+        description: "Margarita con toque picante."
       },
 
       {
@@ -372,4 +371,829 @@ const menuData = [
         price: 9,
         image: "images/c7.jpg",
         icon: "🍹",
-        description: "Escoge entre
+        description: "Chinola, fresa, limón o blue."
+      },
+
+      {
+        name: "Tinto de Verano",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c8.jpg",
+        icon: "🍷",
+        description: "Tinto de verano."
+      },
+
+      {
+        name: "Long Island Blue",
+        rdPrice: 400,
+        price: 10,
+        image: "images/c9.jpg",
+        icon: "🧊",
+        description: "Long Island en versión blue."
+      },
+
+      {
+        name: "Long Island Normal",
+        rdPrice: 400,
+        price: 10,
+        image: "images/c10.jpg",
+        icon: "🍹",
+        description: "Long Island clásico."
+      },
+
+      {
+        name: "Bananamama",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c11.jpg",
+        icon: "🍌",
+        description: "Cóctel tropical de banana."
+      },
+
+      {
+        name: "Orgasmo",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c12.jpg",
+        icon: "🍸",
+        description: "Cóctel de la casa."
+      },
+
+      {
+        name: "Red Apple",
+        rdPrice: 275,
+        price: 7,
+        image: "images/c13.jpg",
+        icon: "🍎",
+        description: "Cóctel de manzana."
+      },
+
+      {
+        name: "Bailey Martini",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c14.jpg",
+        icon: "🍸",
+        description: "Martini con Baileys."
+      },
+
+      {
+        name: "Blue Lagoon",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c15.jpg",
+        icon: "🌊",
+        description: "Cóctel azul tropical."
+      },
+
+      {
+        name: "Black Russian",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c16.jpg",
+        icon: "🥃",
+        description: "Cóctel clásico."
+      },
+
+      {
+        name: "Blue Monday",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c17.jpg",
+        icon: "💙",
+        description: "Cóctel clásico en azul."
+      },
+
+      {
+        name: "Screwdriver",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c18.jpg",
+        icon: "🍊",
+        description: "Cóctel de naranja."
+      },
+
+      {
+        name: "Blue Hawái",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c19.jpg",
+        icon: "🌴",
+        description: "Cóctel tropical azul."
+      },
+
+      {
+        name: "Mai Tai",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c20.jpg",
+        icon: "🍹",
+        description: "Cóctel tropical."
+      },
+
+      {
+        name: "Tequila Rose",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c21.jpg",
+        icon: "🌹",
+        description: "Cóctel con Tequila Rose."
+      },
+
+      {
+        name: "Dirty Monkey",
+        rdPrice: 350,
+        price: 9,
+        image: "images/c22.jpg",
+        icon: "🍌",
+        description: "Cóctel tropical."
+      },
+
+      {
+        name: "Daiquiri",
+        rdPrice: 300,
+        price: 8,
+        image: "images/c23.jpg",
+        icon: "🍋",
+        description: "Daiquiri."
+      },
+
+      {
+        name: "Cuba Libre",
+        rdPrice: 250,
+        price: 6,
+        image: "images/c24.jpg",
+        icon: "🥤",
+        description: "Cuba Libre."
+      },
+
+      {
+        name: "Santo Libre",
+        rdPrice: 250,
+        price: 6,
+        image: "images/c25.jpg",
+        icon: "🍋",
+        description: "Santo Libre."
+      }
+
+    ]
+  },
+
+
+  /* ====================================================
+     SHOTS
+  ==================================================== */
+
+  {
+    category: "shots",
+    title: "Shots",
+    icon: "🥃",
+
+    items: [
+
+      {
+        name: "Mamajuana",
+        rdPrice: 125,
+        price: 4,
+        image: "images/s1.jpg",
+        icon: "🥃",
+        description: "Shot dominicano."
+      },
+
+      {
+        name: "Fireball",
+        rdPrice: 175,
+        price: 6,
+        image: "images/s2.jpg",
+        icon: "🔥",
+        description: "Shot Fireball."
+      },
+
+      {
+        name: "Cielo Nublado",
+        rdPrice: 200,
+        price: 5,
+        image: "images/s3.jpg",
+        icon: "☁️",
+        description: "Shot de la casa."
+      },
+
+      {
+        name: "Café Celeste",
+        rdPrice: 200,
+        price: 4,
+        image: "images/s4.jpg",
+        icon: "☕",
+        description: "Shot de café."
+      },
+
+      {
+        name: "José Cuervo",
+        rdPrice: 300,
+        price: 7,
+        image: "images/s5.jpg",
+        icon: "🥃",
+        description: "Shot de tequila."
+      },
+
+      {
+        name: "Patrón",
+        rdPrice: 350,
+        price: 8,
+        image: "images/s6.jpg",
+        icon: "🥃",
+        description: "Shot de tequila."
+      },
+
+      {
+        name: "Sambuca",
+        rdPrice: 300,
+        price: 7,
+        image: "images/s7.jpg",
+        icon: "🥃",
+        description: "Shot de Sambuca."
+      }
+
+    ]
+  }
+
+];
+
+
+/* ======================================================
+   CONVERSIÓN RD$ → USD
+====================================================== */
+
+function rdToUsd(rd) {
+  return rd / RD_PER_USD;
+}
+
+
+
+/* ======================================================
+   FORMATO DE PRECIO: SOLO USD
+====================================================== */
+
+function formatPrice(price) {
+  if (price === null || price === undefined) {
+    return "Consultar";
+  }
+
+  return `
+    <span class="price-usd">
+      $${price.toFixed(2)} USD
+    </span>
+  `;
+}
+
+
+
+/* ======================================================
+   CREAR TARJETA DEL PRODUCTO
+====================================================== */
+
+function createMenuCard(item, section, index) {
+
+  const imageHTML = item.image
+    ? `
+      <img
+        src="${item.image}"
+        alt="${item.name}"
+        loading="lazy"
+        onerror="
+          this.style.display='none';
+          this.nextElementSibling.style.display='flex';
+        "
+      >
+
+      <span
+        class="image-fallback"
+        style="display:none;"
+      >
+        ${item.icon}
+      </span>
+    `
+    : `
+      <span class="image-fallback">
+        ${item.icon}
+      </span>
+    `;
+
+  return `
+    <article
+      class="menu-card"
+      tabindex="0"
+      role="button"
+      aria-label="Ver ${item.name}"
+      data-category="${section.category}"
+      data-section="${section.title}"
+      data-index="${index}"
+    >
+
+<div class="item-image">
+  ${imageHTML}
+
+  <div class="view-hint">
+    <span>VER</span>
+  </div>
+
+  <div class="price">
+    ${formatPrice(item.price, item.rdPrice)}
+  </div>
+</div>
+
+      <div class="item-info">
+
+        <h3>${item.name}</h3>
+
+        <p>
+          ${item.description}
+        </p>
+
+      </div>
+
+    </article>
+  `;
+}
+
+
+/* ======================================================
+   MOSTRAR MENÚ
+====================================================== */
+
+function renderMenu(category = "all") {
+
+  const menu = document.getElementById("menu");
+
+  if (!menu) return;
+
+  const sections = menuData.filter(section => {
+
+    return (
+      category === "all" ||
+      section.category === category
+    );
+
+  });
+
+  menu.innerHTML = sections.map(section => {
+
+    return `
+      <section
+        class="menu-section"
+        data-category="${section.category}"
+      >
+
+        <div class="section-heading">
+
+          <h2 class="section-title">
+
+            <span class="section-icon">
+              ${section.icon}
+            </span>
+
+            <span>
+              ${section.title}
+            </span>
+
+          </h2>
+
+        </div>
+
+        ${
+          section.note
+            ? <p class="note">${section.note}</p>
+            : ""
+        }
+
+        <div class="menu-grid">
+
+          ${section.items
+            .map((item, index) =>
+              createMenuCard(
+                item,
+                section,
+                index
+              )
+            )
+            .join("")}
+
+        </div>
+
+      </section>
+    `;
+
+  }).join("");
+
+  attachCardEvents();
+
+  setupImages();
+}
+
+
+/* ======================================================
+   EVENTOS DE LAS TARJETAS
+====================================================== */
+
+function attachCardEvents() {
+
+  document
+    .querySelectorAll(".menu-card")
+    .forEach(card => {
+
+      card.addEventListener(
+        "click",
+        openItem
+      );
+
+      card.addEventListener(
+        "keydown",
+        event => {
+
+          if (
+            event.key === "Enter" ||
+            event.key === " "
+          ) {
+
+            event.preventDefault();
+
+            openItem.call(card);
+
+          }
+
+        }
+      );
+
+    });
+
+}
+
+
+/* ======================================================
+   ABRIR MODAL
+   SOLO FOTO
+====================================================== */
+
+function openItem() {
+
+  const section = menuData.find(
+    section =>
+      section.title === this.dataset.section
+  );
+
+  if (!section) return;
+
+  const item =
+    section.items[
+      Number(this.dataset.index)
+    ];
+
+  if (!item) return;
+
+  const modal =
+    document.getElementById("itemModal");
+
+  const modalImage =
+    document.getElementById("modalImage");
+
+  const modalFallback =
+    document.getElementById("modalImageFallback");
+
+
+  /* -----------------------------------------------
+     MOSTRAR FOTO
+  ----------------------------------------------- */
+
+  if (item.image && modalImage) {
+
+    modalImage.src = item.image;
+
+    modalImage.alt = item.name;
+
+    modalImage.style.display = "block";
+
+    if (modalFallback) {
+      modalFallback.style.display = "none";
+    }
+
+    modalImage.onerror = () => {
+
+      modalImage.style.display = "none";
+
+      if (modalFallback) {
+        modalFallback.textContent = item.icon;
+        modalFallback.style.display = "flex";
+      }
+
+    };
+
+  } else {
+
+    if (modalImage) {
+      modalImage.style.display = "none";
+    }
+
+    if (modalFallback) {
+      modalFallback.textContent = item.icon;
+      modalFallback.style.display = "flex";
+    }
+
+  }
+
+
+  /* -----------------------------------------------
+     ABRIR
+  ----------------------------------------------- */
+
+  if (!modal) return;
+
+  modal.classList.add("open");
+
+  modal.setAttribute(
+    "aria-hidden",
+    "false"
+  );
+
+  document.body.style.overflow = "hidden";
+
+}
+
+
+/* ======================================================
+   CERRAR MODAL
+====================================================== */
+
+function closeModal() {
+
+  const modal =
+    document.getElementById("itemModal");
+
+  if (!modal) return;
+
+  modal.classList.remove("open");
+
+  modal.setAttribute(
+    "aria-hidden",
+    "true"
+  );
+
+  document.body.style.overflow = "";
+
+}
+
+
+/* ======================================================
+   FILTROS
+====================================================== */
+
+function setupFilters() {
+
+  const buttons =
+    document.querySelectorAll(
+      ".filter-btn"
+    );
+
+  buttons.forEach(button => {
+
+    button.addEventListener(
+      "click",
+      () => {
+
+        buttons.forEach(btn => {
+
+          btn.classList.remove(
+            "active"
+          );
+
+        });
+
+        button.classList.add(
+          "active"
+        );
+
+        renderMenu(
+          button.dataset.category
+        );
+
+        const searchInput =
+          document.getElementById(
+            "menuSearch"
+          );
+
+        if (searchInput) {
+          searchInput.value = "";
+        }
+
+        window.scrollTo({
+
+          top: 0,
+
+          behavior: "smooth"
+
+        });
+
+      }
+    );
+
+  });
+
+}
+
+
+/* ======================================================
+   MODAL
+====================================================== */
+
+function setupModal() {
+
+  document
+    .querySelectorAll(
+      "[data-close-modal]"
+    )
+    .forEach(element => {
+
+      element.addEventListener(
+        "click",
+        closeModal
+      );
+
+    });
+
+  document.addEventListener(
+    "keydown",
+    event => {
+
+      if (
+        event.key === "Escape"
+      ) {
+
+        closeModal();
+
+      }
+
+    }
+  );
+
+}
+
+
+/* ======================================================
+   BOTÓN VOLVER ARRIBA
+====================================================== */
+
+function setupBackToTop() {
+
+  const button =
+    document.getElementById(
+      "backTop"
+    );
+
+  if (!button) return;
+
+  window.addEventListener(
+    "scroll",
+    () => {
+
+      button.classList.toggle(
+        "visible",
+        window.scrollY > 450
+      );
+
+    }
+  );
+
+  button.addEventListener(
+    "click",
+    () => {
+
+      window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+      });
+
+    }
+  );
+
+}
+
+
+/* ======================================================
+   BÚSQUEDA
+====================================================== */
+
+function setupSearch() {
+
+  const searchInput =
+    document.getElementById(
+      "menuSearch"
+    );
+
+  if (!searchInput) return;
+
+  searchInput.addEventListener(
+    "input",
+    () => {
+
+      const query =
+        searchInput.value
+          .trim()
+          .toLowerCase();
+
+      document
+        .querySelectorAll(
+          ".menu-card"
+        )
+        .forEach(card => {
+
+          const name =
+            card
+              .querySelector("h3")
+              ?.textContent
+              .toLowerCase() || "";
+
+          const description =
+            card
+              .querySelector("p")
+              ?.textContent
+              .toLowerCase() || "";
+
+          const match =
+            name.includes(query) ||
+            description.includes(query);
+
+          card.style.display =
+            match ? "" : "none";
+
+        });
+
+    }
+  );
+
+}
+
+
+/* ======================================================
+   IMÁGENES
+====================================================== */
+
+function setupImages() {
+
+  document
+    .querySelectorAll(
+      ".item-image img"
+    )
+    .forEach(image => {
+
+      image.addEventListener(
+        "error",
+        () => {
+
+          image.style.display =
+            "none";
+
+          const fallback =
+            image.nextElementSibling;
+
+          if (fallback) {
+
+            fallback.style.display =
+              "flex";
+
+          }
+
+        },
+        {
+          once: true
+        }
+      );
+
+    });
+
+}
+
+
+/* ======================================================
+   INICIALIZACIÓN
+====================================================== */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+
+    renderMenu();
+
+    setupFilters();
+
+    setupModal();
+
+    setupBackToTop();
+
+    setupSearch();
+
+    setupImages();
+
+  }
+);
