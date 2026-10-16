@@ -762,7 +762,7 @@ function renderMenu(category = "all") {
 
         ${
           section.note
-            ? <p class="note">${section.note}</p>
+            ? `<p class="note">${section.note}</p>`
             : ""
         }
 
