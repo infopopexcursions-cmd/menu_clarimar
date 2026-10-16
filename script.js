@@ -1,3 +1,4 @@
+```javascript
 /*
 ========================================================
  LARIMAR CHILL ZONE - MENÚ DIGITAL
@@ -42,7 +43,7 @@ const menuData = [
       price: 12,
       image: "images/j20.jpeg",
       icon: "🍔",
-      description: "Hamburguesa estilo casa."
+      description: "Jugosa carne acompañada de ingredientes frescos y una combinación de sabores irresistible."
     },
 
     {
@@ -51,7 +52,7 @@ const menuData = [
       price: 15,
       image: "images/j19.jpeg",
       icon: "🌮",
-      description: "Fajitas de pollo."
+      description: "Tiernas tiras de pollo sazonadas, ideales para disfrutar de un toque lleno de sabor."
     },
 
     {
@@ -60,7 +61,7 @@ const menuData = [
       price: 15,
       image: "images/j18.jpg",
       icon: "🥩",
-      description: "Fajitas de res."
+      description: "Suaves tiras de res sazonadas y preparadas para ofrecer una experiencia sabrosa."
     },
 
     {
@@ -69,7 +70,7 @@ const menuData = [
       price: 15,
       image: "images/j3.jpeg",
       icon: "🥩",
-      description: "Carne salada preparada al estilo de la casa."
+      description: "Carne sazonada con el toque tradicional que aporta carácter y sabor a cada bocado."
     },
 
     {
@@ -78,7 +79,7 @@ const menuData = [
       price: 20,
       image: "images/j5.jpeg",
       icon: "🍌",
-      description: "Mofongo tradicional con chicharrón."
+      description: "Plátano majado con textura consistente y el sabor crujiente del chicharrón."
     },
 
     {
@@ -87,7 +88,7 @@ const menuData = [
       price: 25,
       image: "images/j9.jpg",
       icon: "🍤",
-      description: "Mofongo con camarones."
+      description: "Una combinación de plátano majado y sabores del mar, perfecta para disfrutar algo especial."
     },
 
     {
@@ -96,7 +97,7 @@ const menuData = [
       price: 15,
       image: "images/j4.jpeg",
       icon: "🍗",
-      description: "Alitas preparadas al estilo de la casa."
+      description: "Alitas cubiertas con salsa barbacoa, con un equilibrio delicioso entre dulzura y sabor."
     },
 
     {
@@ -105,7 +106,7 @@ const menuData = [
       price: 20,
       image: "images/j15.jpg",
       icon: "🍳",
-      description: "Mangú con tres golpes. Consultar disponibilidad."
+      description: "Un clásico desayuno dominicano con mangú y sus tres acompañamientos tradicionales. Consultar disponibilidad."
     },
 
     {
@@ -114,7 +115,7 @@ const menuData = [
       price: null,
       image: "images/j21.jpg",
       icon: "🥓",
-      description: "Precio por libra. Consultar."
+      description: "Corte de cerdo preparado para disfrutar de una textura crujiente y un sabor tradicional. Precio por libra."
     },
 
     {
@@ -123,7 +124,7 @@ const menuData = [
       price: 15,
       image: "images/j1.jpeg",
       icon: "🥪",
-      description: "Sándwich de steak."
+      description: "Pan relleno de carne de res, ideal para una comida práctica y llena de sabor."
     },
 
     {
@@ -132,7 +133,7 @@ const menuData = [
       price: 15,
       image: "images/j2.jpeg",
       icon: "🍗",
-      description: "Pechurina preparada al estilo de la casa."
+      description: "Pollo empanizado con una cubierta dorada y crujiente, ideal para cualquier momento."
     },
 
     {
@@ -141,7 +142,7 @@ const menuData = [
       price: 15,
       image: "images/j11.jpg",
       icon: "",
-      description: "Costillitas con salsa BBQ."
+      description: "Costillas bañadas en salsa barbacoa, con una combinación de sabores intensos y apetitosos."
     },
 
     {
@@ -150,7 +151,7 @@ const menuData = [
       price: null,
       image: "images/j16.jpg",
       icon: "🐟",
-      description: "Precio por libra."
+      description: "Una opción del mar ideal para disfrutar de un buen plato de pescado. Precio según peso."
     },
 
     {
@@ -159,7 +160,7 @@ const menuData = [
       price: null,
       image: "images/j6.jpg",
       icon: "🐟",
-      description: "Precio por libra."
+      description: "Preparación tradicional con una cubierta dorada y una textura crujiente. Precio según peso."
     },
 
     {
@@ -168,454 +169,454 @@ const menuData = [
       price: 27,
       image: "images/j14.jpg",
       icon: "🍤",
-      description: "Disponible al ajillo, a la crema o criollo."
+      description: "Deliciosos sabores del mar disponibles al ajillo, a la crema o al estilo criollo."
     }
 
   ]
 },
 
-  /* ====================================================
-     ESPECIALIDADES
-  ==================================================== */
+/* ====================================================
+   ESPECIALIDADES
+==================================================== */
 
-  {
-    category: "specials",
-    title: "Especialidades de la casa",
-    icon: "⭐",
+{
+  category: "specials",
+  title: "Especialidades de la casa",
+  icon: "⭐",
 
-    items: [
+  items: [
 
-      {
-        name: "On the Wheels",
-        rdPrice: 300,
-        price: 8,
-        image: "images/ss1.jpg",
-        icon: "🍹",
-        description: "Especialidad de la casa."
-      },
+    {
+      name: "On the Wheels",
+      rdPrice: 300,
+      price: 8,
+      image: "images/ss1.jpg",
+      icon: "🍹",
+      description: "Una propuesta refrescante para disfrutar de una combinación especial de sabores."
+    },
 
-      {
-        name: "Clarimar",
-        rdPrice: 300,
-        price: 8,
-        image: "images/ss2.jpg",
-        icon: "🌊",
-        description: "Especialidad de la casa."
-      },
+    {
+      name: "Clarimar",
+      rdPrice: 300,
+      price: 8,
+      image: "images/ss2.jpg",
+      icon: "🌊",
+      description: "Una creación con personalidad propia, perfecta para acompañar el ambiente tropical."
+    },
 
-      {
-        name: "Scuba Coral Reef",
-        rdPrice: 350,
-        price: 9,
-        image: "images/ss3.jpg",
-        icon: "🐚",
-        description: "Especialidad de la casa."
-      }
+    {
+      name: "Scuba Coral Reef",
+      rdPrice: 350,
+      price: 9,
+      image: "images/ss3.jpg",
+      icon: "🐚",
+      description: "Una mezcla especial inspirada en los colores y la frescura del Caribe."
+    }
 
-    ]
-  },
-
-
-  /* ====================================================
-     SMOOTHIES
-  ==================================================== */
-
-  {
-    category: "smoothies",
-    title: "Smoothies",
-    icon: "🥤",
-
-    note: "Con alcohol y sin alcohol disponibles.",
-
-    items: [
-
-      {
-        name: "Con alcohol",
-        rdPrice: 275,
-        price: 7,
-        image: "images/h1.jpg",
-        icon: "🍓",
-        description: "Smoothie preparado con fruta."
-      },
-
-      {
-        name: "Sin alcohol",
-        rdPrice: 250,
-        price: 6,
-        image: "images/h2.jpg",
-        icon: "🥤",
-        description: "Smoothie sin alcohol."
-      },
-
-      {
-        name: "Fresa",
-        price: null,
-        image: "images/h3.jpg",
-        icon: "🍓",
-        description: "Smoothie de fresa."
-      },
-
-      {
-        name: "Chinola",
-        price: null,
-        image: "images/h4.jpeg",
-        icon: "🥭",
-        description: "Smoothie de chinola."
-      },
-
-      {
-        name: "Limón",
-        price: null,
-        image: "images/h5.jpg",
-        icon: "🍋",
-        description: "Smoothie de limón."
-      },
-
-      {
-        name: "Mixto",
-        price: null,
-        image: "images/h6.jpg",
-        icon: "🍹",
-        description: "Smoothie mixto."
-      },
-
-      {
-        name: "Fruta fresca",
-        price: null,
-        image: "images/h7.jpeg",
-        icon: "🍍",
-        description: "Smoothie Verde."
-      }
-
-    ]
-  },
+  ]
+},
 
 
-  /* ====================================================
-     CÓCTELES
-  ==================================================== */
+/* ====================================================
+   SMOOTHIES
+==================================================== */
 
-  {
-    category: "cocktails",
-    title: "Cócteles",
-    icon: "🍸",
+{
+  category: "smoothies",
+  title: "Smoothies",
+  icon: "🥤",
 
-    items: [
+  note: "Con alcohol y sin alcohol disponibles.",
 
-      {
-        name: "Mojito",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c1.jpg",
-        icon: "🍸",
-        description: "Chinola, fresa, limón o blue."
-      },
+  items: [
 
-      {
-        name: "Mojito Coco",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c2.jpg",
-        icon: "🥥",
-        description: "Mojito de coco."
-      },
+    {
+      name: "Con alcohol",
+      rdPrice: 275,
+      price: 7,
+      image: "images/h1.jpg",
+      icon: "🍓",
+      description: "Una mezcla frutal de textura suave, ideal para quienes prefieren una bebida con un toque de alcohol."
+    },
 
-      {
-        name: "Mojito Chinola",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c26.jpeg",
-        icon: "🥥",
-        description: "Mojito de Chinola."
-      },
+    {
+      name: "Sin alcohol",
+      rdPrice: 250,
+      price: 6,
+      image: "images/h2.jpg",
+      icon: "🥤",
+      description: "Una alternativa refrescante y cremosa para disfrutar del sabor de la fruta sin alcohol."
+    },
 
-      {
-        name: "Sex on the Beach",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c3.jpg",
-        icon: "🍹",
-        description: "Cóctel clásico."
-      },
+    {
+      name: "Fresa",
+      price: null,
+      image: "images/h3.jpg",
+      icon: "🍓",
+      description: "Dulzura frutal y frescura en una mezcla suave, ideal para los amantes de la fresa."
+    },
 
-      {
-        name: "Piña Colada",
-        rdPrice: 300,
-        price: 8,
-        image: "images/h5.jpeg",
-        icon: "🍍",
-        description: "Cóctel tropical."
-      },
+    {
+      name: "Chinola",
+      price: null,
+      image: "images/h4.jpeg",
+      icon: "🥭",
+      description: "El sabor tropical de la fruta de la pasión, con un toque refrescante y ligeramente ácido."
+    },
 
-      {
-        name: "Gin Tonic",
-        rdPrice: 400,
-        price: 9,
-        image: "images/c5.jpg",
-        icon: "🍸",
-        description: "Gin tonic."
-      },
+    {
+      name: "Limón",
+      price: null,
+      image: "images/h5.jpg",
+      icon: "🍋",
+      description: "Un sabor cítrico y refrescante, perfecto para disfrutar de una pausa revitalizante."
+    },
 
-      {
-        name: "Margarita Devil",
-        rdPrice: 400,
-        price: 10,
-        image: "images/c6.jpg",
-        icon: "🌶️",
-        description: "Margarita con toque picante."
-      },
+    {
+      name: "Mixto",
+      price: null,
+      image: "images/h6.jpg",
+      icon: "🍹",
+      description: "Una combinación de sabores frutales que ofrece una experiencia refrescante en cada sorbo."
+    },
 
-      {
-        name: "Margarita",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c7.jpg",
-        icon: "🍹",
-        description: "Chinola, fresa, limón o blue."
-      },
+    {
+      name: "Fruta fresca",
+      price: null,
+      image: "images/h7.jpeg",
+      icon: "🍍",
+      description: "Una mezcla frutal de inspiración tropical, ideal para quienes buscan frescura en su bebida."
+    }
 
-      {
-        name: "Tinto de Verano",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c8.jpg",
-        icon: "🍷",
-        description: "Tinto de verano."
-      },
-
-      {
-        name: "Long Island Blue",
-        rdPrice: 400,
-        price: 10,
-        image: "images/c9.jpg",
-        icon: "🧊",
-        description: "Long Island en versión blue."
-      },
-
-      {
-        name: "Long Island Normal",
-        rdPrice: 400,
-        price: 10,
-        image: "images/c10.jpg",
-        icon: "🍹",
-        description: "Long Island clásico."
-      },
-
-      {
-        name: "Bananamama",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c11.jpg",
-        icon: "🍌",
-        description: "Cóctel tropical de banana."
-      },
-
-      {
-        name: "Orgasmo",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c12.jpg",
-        icon: "🍸",
-        description: "Cóctel de la casa."
-      },
-
-      {
-        name: "Red Apple",
-        rdPrice: 275,
-        price: 7,
-        image: "images/c13.jpg",
-        icon: "🍎",
-        description: "Cóctel de manzana."
-      },
-
-      {
-        name: "Bailey Martini",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c14.jpg",
-        icon: "🍸",
-        description: "Martini con Baileys."
-      },
-
-      {
-        name: "Blue Lagoon",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c15.jpg",
-        icon: "🌊",
-        description: "Cóctel azul tropical."
-      },
-
-      {
-        name: "Black Russian",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c16.jpg",
-        icon: "🥃",
-        description: "Cóctel clásico."
-      },
-
-      {
-        name: "Blue Monday",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c17.jpg",
-        icon: "💙",
-        description: "Cóctel clásico en azul."
-      },
-
-      {
-        name: "Screwdriver",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c18.jpg",
-        icon: "🍊",
-        description: "Cóctel de naranja."
-      },
-
-      {
-        name: "Blue Hawái",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c19.jpg",
-        icon: "🌴",
-        description: "Cóctel tropical azul."
-      },
-
-      {
-        name: "Mai Tai",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c20.jpg",
-        icon: "🍹",
-        description: "Cóctel tropical."
-      },
-
-      {
-        name: "Tequila Rose",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c21.jpg",
-        icon: "🌹",
-        description: "Cóctel con Tequila Rose."
-      },
-
-      {
-        name: "Dirty Monkey",
-        rdPrice: 350,
-        price: 9,
-        image: "images/c22.jpg",
-        icon: "🍌",
-        description: "Cóctel tropical."
-      },
-
-      {
-        name: "Daiquiri",
-        rdPrice: 300,
-        price: 8,
-        image: "images/c23.jpg",
-        icon: "🍋",
-        description: "Daiquiri."
-      },
-
-      {
-        name: "Cuba Libre",
-        rdPrice: 250,
-        price: 6,
-        image: "images/c24.jpg",
-        icon: "🥤",
-        description: "Cuba Libre."
-      },
-
-      {
-        name: "Santo Libre",
-        rdPrice: 250,
-        price: 6,
-        image: "images/c25.jpg",
-        icon: "🍋",
-        description: "Santo Libre."
-      }
-
-    ]
-  },
+  ]
+},
 
 
-  /* ====================================================
-     SHOTS
-  ==================================================== */
+/* ====================================================
+   CÓCTELES
+==================================================== */
 
-  {
-    category: "shots",
-    title: "Shots",
-    icon: "🥃",
+{
+  category: "cocktails",
+  title: "Cócteles",
+  icon: "🍸",
 
-    items: [
+  items: [
 
-      {
-        name: "Mamajuana",
-        rdPrice: 125,
-        price: 4,
-        image: "images/s1.jpg",
-        icon: "🥃",
-        description: "Shot dominicano."
-      },
+    {
+      name: "Mojito",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c1.jpg",
+      icon: "🍸",
+      description: "Una mezcla refrescante con notas cítricas y menta. Disponible en chinola, fresa, limón o blue."
+    },
 
-      {
-        name: "Fireball",
-        rdPrice: 175,
-        price: 6,
-        image: "images/s2.jpg",
-        icon: "🔥",
-        description: "Shot Fireball."
-      },
+    {
+      name: "Mojito Coco",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c2.jpg",
+      icon: "🥥",
+      description: "El frescor de la menta y los cítricos se combina con un delicado toque tropical de coco."
+    },
 
-      {
-        name: "Cielo Nublado",
-        rdPrice: 200,
-        price: 5,
-        image: "images/s3.jpg",
-        icon: "☁️",
-        description: "Shot de la casa."
-      },
+    {
+      name: "Mojito Chinola",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c26.jpeg",
+      icon: "🥥",
+      description: "Una combinación de menta, cítricos y el sabor tropical, ligeramente ácido, de la chinola."
+    },
 
-      {
-        name: "Café Celeste",
-        rdPrice: 200,
-        price: 4,
-        image: "images/s4.jpg",
-        icon: "☕",
-        description: "Shot de café."
-      },
+    {
+      name: "Sex on the Beach",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c3.jpg",
+      icon: "🍹",
+      description: "Una mezcla frutal de perfil dulce y cítrico, perfecta para acompañar una tarde caribeña."
+    },
 
-      {
-        name: "José Cuervo",
-        rdPrice: 300,
-        price: 7,
-        image: "images/s5.jpg",
-        icon: "🥃",
-        description: "Shot de tequila."
-      },
+    {
+      name: "Piña Colada",
+      rdPrice: 300,
+      price: 8,
+      image: "images/h5.jpeg",
+      icon: "🍍",
+      description: "La combinación tropical de piña y coco crea una bebida cremosa y llena de frescura."
+    },
 
-      {
-        name: "Patrón",
-        rdPrice: 350,
-        price: 8,
-        image: "images/s6.jpg",
-        icon: "🥃",
-        description: "Shot de tequila."
-      },
+    {
+      name: "Gin Tonic",
+      rdPrice: 400,
+      price: 9,
+      image: "images/c5.jpg",
+      icon: "🍸",
+      description: "Una combinación clásica de ginebra y tónica, con un perfil fresco y ligeramente amargo."
+    },
 
-      {
-        name: "Sambuca",
-        rdPrice: 300,
-        price: 7,
-        image: "images/s7.jpg",
-        icon: "🥃",
-        description: "Shot de Sambuca."
-      }
+    {
+      name: "Margarita Devil",
+      rdPrice: 400,
+      price: 10,
+      image: "images/c6.jpg",
+      icon: "🌶️",
+      description: "Una versión atrevida de la margarita con un toque picante para quienes disfrutan los sabores intensos."
+    },
 
-    ]
-  }
+    {
+      name: "Margarita",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c7.jpg",
+      icon: "🍹",
+      description: "Una mezcla equilibrada de notas cítricas. Disponible en chinola, fresa, limón o blue."
+    },
+
+    {
+      name: "Tinto de Verano",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c8.jpg",
+      icon: "🍷",
+      description: "Una combinación ligera y refrescante de vino tinto con un toque cítrico."
+    },
+
+    {
+      name: "Long Island Blue",
+      rdPrice: 400,
+      price: 10,
+      image: "images/c9.jpg",
+      icon: "🧊",
+      description: "Una versión de color azul del clásico Long Island, con una mezcla de sabores cítricos."
+    },
+
+    {
+      name: "Long Island Normal",
+      rdPrice: 400,
+      price: 10,
+      image: "images/c10.jpg",
+      icon: "🍹",
+      description: "Una mezcla intensa de destilados con notas cítricas y un perfil clásico."
+    },
+
+    {
+      name: "Bananamama",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c11.jpg",
+      icon: "🍌",
+      description: "Una propuesta tropical con notas dulces de banana, ideal para disfrutar un sabor diferente."
+    },
+
+    {
+      name: "Orgasmo",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c12.jpg",
+      icon: "🍸",
+      description: "Una combinación de sabores suaves y dulces para quienes prefieren un cóctel de perfil cremoso."
+    },
+
+    {
+      name: "Red Apple",
+      rdPrice: 275,
+      price: 7,
+      image: "images/c13.jpg",
+      icon: "🍎",
+      description: "Un perfil frutal con notas de manzana y un carácter fresco y agradable."
+    },
+
+    {
+      name: "Bailey Martini",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c14.jpg",
+      icon: "🍸",
+      description: "Una propuesta cremosa que combina el carácter del martini con las notas dulces de Baileys."
+    },
+
+    {
+      name: "Blue Lagoon",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c15.jpg",
+      icon: "🌊",
+      description: "Su llamativo tono azul y sus notas cítricas evocan la frescura de una laguna tropical."
+    },
+
+    {
+      name: "Black Russian",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c16.jpg",
+      icon: "🥃",
+      description: "Un clásico de sabor intenso que combina vodka con las notas profundas del licor de café."
+    },
+
+    {
+      name: "Blue Monday",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c17.jpg",
+      icon: "💙",
+      description: "Una propuesta de color azul y perfil intenso para quienes buscan una opción diferente."
+    },
+
+    {
+      name: "Screwdriver",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c18.jpg",
+      icon: "🍊",
+      description: "Una combinación clásica de vodka y jugo de naranja, con un sabor cítrico y refrescante."
+    },
+
+    {
+      name: "Blue Hawái",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c19.jpg",
+      icon: "🌴",
+      description: "Una mezcla de inspiración isleña con notas tropicales y un atractivo color azul."
+    },
+
+    {
+      name: "Mai Tai",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c20.jpg",
+      icon: "🍹",
+      description: "Un clásico tropical que destaca por sus notas cítricas, frutales y un carácter equilibrado."
+    },
+
+    {
+      name: "Tequila Rose",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c21.jpg",
+      icon: "🌹",
+      description: "Una propuesta de perfil dulce y cremoso con las notas características de Tequila Rose."
+    },
+
+    {
+      name: "Dirty Monkey",
+      rdPrice: 350,
+      price: 9,
+      image: "images/c22.jpg",
+      icon: "🍌",
+      description: "Una mezcla tropical de perfil dulce, ideal para quienes disfrutan las bebidas con notas de banana."
+    },
+
+    {
+      name: "Daiquiri",
+      rdPrice: 300,
+      price: 8,
+      image: "images/c23.jpg",
+      icon: "🍋",
+      description: "Un clásico de notas cítricas que combina frescura, acidez y un toque dulce."
+    },
+
+    {
+      name: "Cuba Libre",
+      rdPrice: 250,
+      price: 6,
+      image: "images/c24.jpg",
+      icon: "🥤",
+      description: "La combinación clásica de ron, refresco de cola y un toque de limón."
+    },
+
+    {
+      name: "Santo Libre",
+      rdPrice: 250,
+      price: 6,
+      image: "images/c25.jpg",
+      icon: "🍋",
+      description: "Una combinación refrescante de ron, refresco de limón y notas cítricas."
+    }
+
+  ]
+},
+
+
+/* ====================================================
+   SHOTS
+==================================================== */
+
+{
+  category: "shots",
+  title: "Shots",
+  icon: "🥃",
+
+  items: [
+
+    {
+      name: "Mamajuana",
+      rdPrice: 125,
+      price: 4,
+      image: "images/s1.jpg",
+      icon: "🥃",
+      description: "Una bebida tradicional dominicana con carácter especiado y un sabor lleno de personalidad."
+    },
+
+    {
+      name: "Fireball",
+      rdPrice: 175,
+      price: 6,
+      image: "images/s2.jpg",
+      icon: "🔥",
+      description: "Notas intensas de canela y un toque especiado que dejan una sensación cálida en el paladar."
+    },
+
+    {
+      name: "Cielo Nublado",
+      rdPrice: 200,
+      price: 5,
+      image: "images/s3.jpg",
+      icon: "☁️",
+      description: "Una propuesta de la casa para quienes desean descubrir una combinación diferente."
+    },
+
+    {
+      name: "Café Celeste",
+      rdPrice: 200,
+      price: 4,
+      image: "images/s4.jpg",
+      icon: "☕",
+      description: "Notas de café con un perfil aromático e intenso, ideal para los amantes de este sabor."
+    },
+
+    {
+      name: "José Cuervo",
+      rdPrice: 300,
+      price: 7,
+      image: "images/s5.jpg",
+      icon: "🥃",
+      description: "Una opción clásica de tequila, reconocida por su carácter distintivo."
+    },
+
+    {
+      name: "Patrón",
+      rdPrice: 350,
+      price: 8,
+      image: "images/s6.jpg",
+      icon: "🥃",
+      description: "Tequila de perfil definido, ideal para quienes aprecian los sabores tradicionales de este destilado."
+    },
+
+    {
+      name: "Sambuca",
+      rdPrice: 300,
+      price: 7,
+      image: "images/s7.jpg",
+      icon: "🥃",
+      description: "Licor italiano de notas anisadas y aroma característico, con un sabor dulce e intenso."
+    }
+
+  ]
+}
 
 ];
 
@@ -627,7 +628,6 @@ const menuData = [
 function rdToUsd(rd) {
   return rd / RD_PER_USD;
 }
-
 
 
 /* ======================================================
@@ -645,7 +645,6 @@ function formatPrice(price) {
     </span>
   `;
 }
-
 
 
 /* ======================================================
@@ -690,17 +689,17 @@ function createMenuCard(item, section, index) {
       data-index="${index}"
     >
 
-<div class="item-image">
-  ${imageHTML}
+      <div class="item-image">
+        ${imageHTML}
 
-  <div class="view-hint">
-    <span>VER</span>
-  </div>
+        <div class="view-hint">
+          <span>VER</span>
+        </div>
 
-  <div class="price">
-    ${formatPrice(item.price, item.rdPrice)}
-  </div>
-</div>
+        <div class="price">
+          ${formatPrice(item.price, item.rdPrice)}
+        </div>
+      </div>
 
       <div class="item-info">
 
@@ -1081,119 +1080,4 @@ function setupBackToTop() {
 
 
 /* ======================================================
-   BÚSQUEDA
-====================================================== */
-
-function setupSearch() {
-
-  const searchInput =
-    document.getElementById(
-      "menuSearch"
-    );
-
-  if (!searchInput) return;
-
-  searchInput.addEventListener(
-    "input",
-    () => {
-
-      const query =
-        searchInput.value
-          .trim()
-          .toLowerCase();
-
-      document
-        .querySelectorAll(
-          ".menu-card"
-        )
-        .forEach(card => {
-
-          const name =
-            card
-              .querySelector("h3")
-              ?.textContent
-              .toLowerCase() || "";
-
-          const description =
-            card
-              .querySelector("p")
-              ?.textContent
-              .toLowerCase() || "";
-
-          const match =
-            name.includes(query) ||
-            description.includes(query);
-
-          card.style.display =
-            match ? "" : "none";
-
-        });
-
-    }
-  );
-
-}
-
-
-/* ======================================================
-   IMÁGENES
-====================================================== */
-
-function setupImages() {
-
-  document
-    .querySelectorAll(
-      ".item-image img"
-    )
-    .forEach(image => {
-
-      image.addEventListener(
-        "error",
-        () => {
-
-          image.style.display =
-            "none";
-
-          const fallback =
-            image.nextElementSibling;
-
-          if (fallback) {
-
-            fallback.style.display =
-              "flex";
-
-          }
-
-        },
-        {
-          once: true
-        }
-      );
-
-    });
-
-}
-
-
-/* ======================================================
-   INICIALIZACIÓN
-====================================================== */
-
-document.addEventListener(
-  "DOMContentLoaded",
-  () => {
-
-    renderMenu();
-
-    setupFilters();
-
-    setupModal();
-
-    setupBackToTop();
-
-    setupSearch();
-
-    setupImages();
-
-  }
-);
+   B
