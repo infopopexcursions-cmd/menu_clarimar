@@ -1,28 +1,11 @@
-
+```javascript
 /*
 ========================================================
  LARIMAR CHILL ZONE - MENÚ DIGITAL
 ========================================================
-
- Precios:
- - Comida: precios directamente en USD.
- - Bebidas/especialidades: precio original en RD$
-   convertido automáticamente a USD.
-
-========================================================
 */
 
-
-/* ======================================================
-   CONFIGURACIÓN
-====================================================== */
-
 const RD_PER_USD = 60;
-
-
-/* ======================================================
-   DATOS DEL MENÚ
-====================================================== */
 
 const menuData = [
 
@@ -43,7 +26,7 @@ const menuData = [
       price: 12,
       image: "images/j20.jpeg",
       icon: "🍔",
-      description: "Hamburguesa estilo casa."
+      description: "Jugosa, sabrosa y preparada al momento para disfrutar en cualquier ocasión."
     },
 
     {
@@ -52,7 +35,7 @@ const menuData = [
       price: 15,
       image: "images/j19.jpeg",
       icon: "🌮",
-      description: "Fajitas de pollo."
+      description: "Tiras de pollo sazonadas y cocinadas para ofrecer un bocado lleno de sabor."
     },
 
     {
@@ -61,7 +44,7 @@ const menuData = [
       price: 15,
       image: "images/j18.jpg",
       icon: "🥩",
-      description: "Fajitas de res."
+      description: "Tiernas tiras de res sazonadas, ideales para quienes disfrutan de sabores intensos."
     },
 
     {
@@ -70,7 +53,7 @@ const menuData = [
       price: 15,
       image: "images/j3.jpeg",
       icon: "🥩",
-      description: "Carne salada preparada al estilo de la casa."
+      description: "Una opción de sabor intenso, preparada con el toque especial de nuestra cocina."
     },
 
     {
@@ -79,7 +62,7 @@ const menuData = [
       price: 20,
       image: "images/j5.jpeg",
       icon: "🍌",
-      description: "Mofongo tradicional con chicharrón."
+      description: "Plátano majado combinado con chicharrón crujiente, en una deliciosa receta tradicional."
     },
 
     {
@@ -88,7 +71,7 @@ const menuData = [
       price: 25,
       image: "images/j9.jpg",
       icon: "🍤",
-      description: "Mofongo con camarones."
+      description: "La combinación del plátano majado y el sabor del mar en una propuesta irresistible."
     },
 
     {
@@ -97,7 +80,7 @@ const menuData = [
       price: 15,
       image: "images/j4.jpeg",
       icon: "🍗",
-      description: "Alitas preparadas al estilo de la casa."
+      description: "Alitas bañadas en salsa barbacoa, perfectas para compartir y disfrutar."
     },
 
     {
@@ -106,7 +89,7 @@ const menuData = [
       price: 20,
       image: "images/j15.jpg",
       icon: "🍳",
-      description: "Mangú con tres golpes. Consultar disponibilidad."
+      description: "Un desayuno dominicano tradicional que reúne mangú y sus tres acompañamientos clásicos. Consultar disponibilidad."
     },
 
     {
@@ -115,7 +98,7 @@ const menuData = [
       price: null,
       image: "images/j21.jpg",
       icon: "🥓",
-      description: "Precio por libra. Consultar."
+      description: "Piel crujiente y carne jugosa, ideal para compartir. Precio por libra; consultar disponibilidad."
     },
 
     {
@@ -124,7 +107,7 @@ const menuData = [
       price: 15,
       image: "images/j1.jpeg",
       icon: "🥪",
-      description: "Sándwich de steak."
+      description: "Una combinación de carne de res y pan, perfecta para una comida rápida y sabrosa."
     },
 
     {
@@ -133,7 +116,7 @@ const menuData = [
       price: 15,
       image: "images/j2.jpeg",
       icon: "🍗",
-      description: "Pechurina preparada al estilo de la casa."
+      description: "Pollo empanizado con una textura crujiente por fuera y un interior jugoso."
     },
 
     {
@@ -141,8 +124,8 @@ const menuData = [
       rdPrice: 850,
       price: 15,
       image: "images/j11.jpg",
-      icon: "",
-      description: "Costillitas con salsa BBQ."
+      icon: "🍖",
+      description: "Costillas cubiertas de salsa barbacoa, con un toque dulce y ahumado."
     },
 
     {
@@ -151,7 +134,7 @@ const menuData = [
       price: null,
       image: "images/j16.jpg",
       icon: "🐟",
-      description: "Precio por libra."
+      description: "Una opción de pescado fresco para los amantes de los sabores del mar. Precio por libra."
     },
 
     {
@@ -160,7 +143,7 @@ const menuData = [
       price: null,
       image: "images/j6.jpg",
       icon: "🐟",
-      description: "Precio por libra."
+      description: "Pescado dorado y crujiente, ideal para disfrutar de una comida junto al mar. Precio por libra."
     },
 
     {
@@ -169,7 +152,7 @@ const menuData = [
       price: 27,
       image: "images/j14.jpg",
       icon: "🍤",
-      description: "Disponible al ajillo, a la crema o criollo."
+      description: "Deliciosos camarones preparados a tu gusto: al ajillo, a la crema o al estilo criollo."
     }
 
   ]
@@ -192,7 +175,7 @@ const menuData = [
       price: 8,
       image: "images/ss1.jpg",
       icon: "🍹",
-      description: "Especialidad de la casa."
+      description: "Una propuesta exclusiva para disfrutar de algo diferente en un ambiente caribeño."
     },
 
     {
@@ -201,7 +184,7 @@ const menuData = [
       price: 8,
       image: "images/ss2.jpg",
       icon: "🌊",
-      description: "Especialidad de la casa."
+      description: "Una creación de la casa que invita a relajarse y disfrutar cada momento."
     },
 
     {
@@ -210,12 +193,11 @@ const menuData = [
       price: 9,
       image: "images/ss3.jpg",
       icon: "🐚",
-      description: "Especialidad de la casa."
+      description: "Una especialidad inspirada en los colores y la esencia tropical del Caribe."
     }
 
   ]
 },
-
 
 /* ====================================================
    SMOOTHIES
@@ -236,7 +218,7 @@ const menuData = [
       price: 7,
       image: "images/h1.jpg",
       icon: "🍓",
-      description: "Smoothie preparado con fruta."
+      description: "Una mezcla frutal refrescante con un toque de alcohol para disfrutar en un ambiente tropical."
     },
 
     {
@@ -245,7 +227,7 @@ const menuData = [
       price: 6,
       image: "images/h2.jpg",
       icon: "🥤",
-      description: "Smoothie sin alcohol."
+      description: "Una bebida cremosa y refrescante, ideal para combatir el calor y disfrutar sin alcohol."
     },
 
     {
@@ -253,7 +235,7 @@ const menuData = [
       price: null,
       image: "images/h3.jpg",
       icon: "🍓",
-      description: "Smoothie de fresa."
+      description: "El dulzor y la frescura de la fresa en una mezcla suave y deliciosa."
     },
 
     {
@@ -261,7 +243,7 @@ const menuData = [
       price: null,
       image: "images/h4.jpeg",
       icon: "🥭",
-      description: "Smoothie de chinola."
+      description: "El sabor tropical de la chinola aporta un toque frutal y refrescante."
     },
 
     {
@@ -269,7 +251,7 @@ const menuData = [
       price: null,
       image: "images/h5.jpg",
       icon: "🍋",
-      description: "Smoothie de limón."
+      description: "Una combinación cítrica y refrescante para quienes prefieren sabores intensos."
     },
 
     {
@@ -277,7 +259,7 @@ const menuData = [
       price: null,
       image: "images/h6.jpg",
       icon: "🍹",
-      description: "Smoothie mixto."
+      description: "Una mezcla de sabores frutales que ofrece una experiencia fresca y tropical."
     },
 
     {
@@ -285,12 +267,11 @@ const menuData = [
       price: null,
       image: "images/h7.jpeg",
       icon: "🍍",
-      description: "Smoothie Verde."
+      description: "Una alternativa frutal para disfrutar de una bebida refrescante con un toque natural."
     }
 
   ]
 },
-
 
 /* ====================================================
    CÓCTELES
@@ -309,7 +290,7 @@ const menuData = [
       price: 8,
       image: "images/c1.jpg",
       icon: "🍸",
-      description: "Chinola, fresa, limón o blue."
+      description: "Una mezcla refrescante con notas cítricas y opciones de chinola, fresa, limón o blue."
     },
 
     {
@@ -318,7 +299,7 @@ const menuData = [
       price: 9,
       image: "images/c2.jpg",
       icon: "🥥",
-      description: "Mojito de coco."
+      description: "La frescura del mojito se combina con un delicado toque tropical de coco."
     },
 
     {
@@ -327,7 +308,7 @@ const menuData = [
       price: 9,
       image: "images/c26.jpeg",
       icon: "🥥",
-      description: "Mojito de Chinola."
+      description: "El carácter cítrico y tropical de la chinola se une a la frescura de esta mezcla."
     },
 
     {
@@ -336,7 +317,7 @@ const menuData = [
       price: 8,
       image: "images/c3.jpg",
       icon: "🍹",
-      description: "Cóctel clásico."
+      description: "Un clásico de notas frutales, conocido por su sabor suave y su estilo veraniego."
     },
 
     {
@@ -345,7 +326,7 @@ const menuData = [
       price: 8,
       image: "images/h5.jpeg",
       icon: "🍍",
-      description: "Cóctel tropical."
+      description: "Una combinación tropical de piña y coco, perfecta para relajarse junto al mar."
     },
 
     {
@@ -354,7 +335,7 @@ const menuData = [
       price: 9,
       image: "images/c5.jpg",
       icon: "🍸",
-      description: "Gin tonic."
+      description: "Una mezcla clásica de ginebra y tónica, con un perfil fresco y equilibrado."
     },
 
     {
@@ -363,7 +344,7 @@ const menuData = [
       price: 10,
       image: "images/c6.jpg",
       icon: "🌶️",
-      description: "Margarita con toque picante."
+      description: "Una versión atrevida de la margarita, con un toque picante que despierta el paladar."
     },
 
     {
@@ -372,7 +353,7 @@ const menuData = [
       price: 9,
       image: "images/c7.jpg",
       icon: "🍹",
-      description: "Chinola, fresa, limón o blue."
+      description: "Un clásico de carácter cítrico, disponible en sabores de chinola, fresa, limón o blue."
     },
 
     {
@@ -381,7 +362,7 @@ const menuData = [
       price: 8,
       image: "images/c8.jpg",
       icon: "🍷",
-      description: "Tinto de verano."
+      description: "Una bebida ligera y refrescante, ideal para disfrutar de una tarde relajada."
     },
 
     {
@@ -390,7 +371,7 @@ const menuData = [
       price: 10,
       image: "images/c9.jpg",
       icon: "🧊",
-      description: "Long Island en versión blue."
+      description: "Una versión azul del famoso Long Island, con una presentación llamativa y un perfil intenso."
     },
 
     {
@@ -399,7 +380,7 @@ const menuData = [
       price: 10,
       image: "images/c10.jpg",
       icon: "🍹",
-      description: "Long Island clásico."
+      description: "Un cóctel de sabor intenso que reúne varios destilados en una mezcla clásica."
     },
 
     {
@@ -408,7 +389,7 @@ const menuData = [
       price: 8,
       image: "images/c11.jpg",
       icon: "🍌",
-      description: "Cóctel tropical de banana."
+      description: "Una propuesta tropical con notas dulces de banana para disfrutar un sabor diferente."
     },
 
     {
@@ -417,7 +398,7 @@ const menuData = [
       price: 9,
       image: "images/c12.jpg",
       icon: "🍸",
-      description: "Cóctel de la casa."
+      description: "Una mezcla especial para quienes buscan una experiencia diferente en cada sorbo."
     },
 
     {
@@ -426,7 +407,7 @@ const menuData = [
       price: 7,
       image: "images/c13.jpg",
       icon: "🍎",
-      description: "Cóctel de manzana."
+      description: "Notas frutales de manzana que aportan un perfil dulce y agradable."
     },
 
     {
@@ -435,7 +416,7 @@ const menuData = [
       price: 9,
       image: "images/c14.jpg",
       icon: "🍸",
-      description: "Martini con Baileys."
+      description: "Una combinación cremosa con Baileys, ideal para quienes prefieren sabores suaves."
     },
 
     {
@@ -444,7 +425,7 @@ const menuData = [
       price: 9,
       image: "images/c15.jpg",
       icon: "🌊",
-      description: "Cóctel azul tropical."
+      description: "Un cóctel de color azul intenso con un perfil fresco y cítrico."
     },
 
     {
@@ -453,7 +434,7 @@ const menuData = [
       price: 8,
       image: "images/c16.jpg",
       icon: "🥃",
-      description: "Cóctel clásico."
+      description: "Un clásico de carácter intenso que combina vodka y licor de café."
     },
 
     {
@@ -462,7 +443,7 @@ const menuData = [
       price: 8,
       image: "images/c17.jpg",
       icon: "💙",
-      description: "Cóctel clásico en azul."
+      description: "Una propuesta de tonos azules para quienes disfrutan de cócteles con personalidad."
     },
 
     {
@@ -471,7 +452,7 @@ const menuData = [
       price: 8,
       image: "images/c18.jpg",
       icon: "🍊",
-      description: "Cóctel de naranja."
+      description: "Una mezcla sencilla y refrescante de vodka y jugo de naranja."
     },
 
     {
@@ -480,7 +461,7 @@ const menuData = [
       price: 8,
       image: "images/c19.jpg",
       icon: "🌴",
-      description: "Cóctel tropical azul."
+      description: "Una combinación tropical de color azul, ideal para acompañar el ambiente caribeño."
     },
 
     {
@@ -489,7 +470,7 @@ const menuData = [
       price: 9,
       image: "images/c20.jpg",
       icon: "🍹",
-      description: "Cóctel tropical."
+      description: "Un clásico tropical con notas cítricas y un carácter inspirado en el Caribe."
     },
 
     {
@@ -498,7 +479,7 @@ const menuData = [
       price: 9,
       image: "images/c21.jpg",
       icon: "🌹",
-      description: "Cóctel con Tequila Rose."
+      description: "Una bebida de perfil dulce y cremoso con el distintivo sabor de Tequila Rose."
     },
 
     {
@@ -507,7 +488,7 @@ const menuData = [
       price: 9,
       image: "images/c22.jpg",
       icon: "🍌",
-      description: "Cóctel tropical."
+      description: "Una mezcla tropical de notas dulces, ideal para los amantes de los sabores frutales."
     },
 
     {
@@ -516,7 +497,7 @@ const menuData = [
       price: 8,
       image: "images/c23.jpg",
       icon: "🍋",
-      description: "Daiquiri."
+      description: "Un clásico refrescante de ron y cítricos, con un equilibrio entre dulzor y acidez."
     },
 
     {
@@ -525,7 +506,7 @@ const menuData = [
       price: 6,
       image: "images/c24.jpg",
       icon: "🥤",
-      description: "Cuba Libre."
+      description: "La combinación clásica de ron, refresco de cola y un toque cítrico."
     },
 
     {
@@ -534,12 +515,11 @@ const menuData = [
       price: 6,
       image: "images/c25.jpg",
       icon: "🍋",
-      description: "Santo Libre."
+      description: "Una mezcla dominicana de ron, refresco de limón y un toque cítrico."
     }
 
   ]
 },
-
 
 /* ====================================================
    SHOTS
@@ -558,7 +538,7 @@ const menuData = [
       price: 4,
       image: "images/s1.jpg",
       icon: "🥃",
-      description: "Shot dominicano."
+      description: "Una bebida tradicional dominicana con un carácter especiado y auténtico."
     },
 
     {
@@ -567,7 +547,7 @@ const menuData = [
       price: 6,
       image: "images/s2.jpg",
       icon: "🔥",
-      description: "Shot Fireball."
+      description: "Un shot con notas de canela y un toque cálido e intenso."
     },
 
     {
@@ -576,7 +556,7 @@ const menuData = [
       price: 5,
       image: "images/s3.jpg",
       icon: "☁️",
-      description: "Shot de la casa."
+      description: "Una creación de la casa para quienes desean probar algo diferente."
     },
 
     {
@@ -585,7 +565,7 @@ const menuData = [
       price: 4,
       image: "images/s4.jpg",
       icon: "☕",
-      description: "Shot de café."
+      description: "Una opción con notas de café para disfrutar de un sabor tostado y distintivo."
     },
 
     {
@@ -594,7 +574,7 @@ const menuData = [
       price: 7,
       image: "images/s5.jpg",
       icon: "🥃",
-      description: "Shot de tequila."
+      description: "Tequila reconocido por su carácter marcado y su tradición mexicana."
     },
 
     {
@@ -603,7 +583,7 @@ const menuData = [
       price: 8,
       image: "images/s6.jpg",
       icon: "🥃",
-      description: "Shot de tequila."
+      description: "Tequila de perfil distintivo, ideal para quienes aprecian los sabores del agave."
     },
 
     {
@@ -612,7 +592,7 @@ const menuData = [
       price: 7,
       image: "images/s7.jpg",
       icon: "🥃",
-      description: "Shot de Sambuca."
+      description: "Licor italiano con notas dulces y aromáticas de anís."
     }
 
   ]
@@ -1196,3 +1176,4 @@ document.addEventListener(
 
   }
 );
+```
