@@ -29,15 +29,6 @@ const menuData = [
       description: "Jugosa, sabrosa y preparada al momento para disfrutar en cualquier ocasión."
     },
 
-       {
-      name: "Hamburguesa de la casa",
-      rdPrice: 400,
-      price: 15,
-      image: "images/j23.jpeg",
-      icon: "🍔",
-      description: "Jugosa, sabrosa y preparada al momento para disfrutar en cualquier ocasión."
-    },
-
     {
       name: "Fajita de pollo",
       rdPrice: 550,
@@ -64,8 +55,6 @@ const menuData = [
       icon: "🥩",
       description: "Una opción de sabor intenso, preparada con el toque especial de nuestra cocina."
     },
-
-   
 
     {
       name: "Mofongo de chicharrón",
