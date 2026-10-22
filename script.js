@@ -65,14 +65,7 @@ const menuData = [
       description: "Una opción de sabor intenso, preparada con el toque especial de nuestra cocina."
     },
 
-    {
-      name: "Mofongo mar y tierra",
-      rdPrice:,
-      price: 30,
-      image: "images/j22.jpeg",
-      icon: "🍌",
-      description: "Plátano majado combinado con chicharrón crujiente, en una deliciosa receta tradicional."
-    },
+   
 
     {
       name: "Mofongo de chicharrón",
