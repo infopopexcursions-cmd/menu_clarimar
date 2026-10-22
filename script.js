@@ -104,7 +104,7 @@ const menuData = [
     },
 
     {
-      name: "3 Golpe Mangu",
+      name: "Los 3 golpes",
       rdPrice: 650,
       price: 20,
       image: "images/j15.jpg",
