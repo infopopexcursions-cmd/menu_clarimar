@@ -29,6 +29,15 @@ const menuData = [
       description: "Jugosa, sabrosa y preparada al momento para disfrutar en cualquier ocasión."
     },
 
+       {
+      name: "Hamburguesa de la casa",
+      rdPrice: 400,
+      price: 15,
+      image: "images/j.jpeg",
+      icon: "🍔",
+      description: "Jugosa, sabrosa y preparada al momento para disfrutar en cualquier ocasión."
+    },
+
     {
       name: "Fajita de pollo",
       rdPrice: 550,
@@ -54,6 +63,15 @@ const menuData = [
       image: "images/j3.jpeg",
       icon: "🥩",
       description: "Una opción de sabor intenso, preparada con el toque especial de nuestra cocina."
+    },
+
+    {
+      name: "Mofongo mar y tierra",
+      rdPrice:,
+      price: 30,
+      image: "images/j5.jpeg",
+      icon: "🍌",
+      description: "Plátano majado combinado con chicharrón crujiente, en una deliciosa receta tradicional."
     },
 
     {
