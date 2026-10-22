@@ -125,7 +125,7 @@ const menuData = [
       name: "Doriloco",
       rdPrice: null,
       price: 15,
-      image: "images/j19.jpeg",
+      image: "images/j24.jpg",
       icon: "",
       description: "Una deliciosa combinación de Doritos crujientes con salsas, vegetales y una variedad de toppings llenos de sabor, perfecta para disfrutar de un antojo diferente y lleno de textura."
     },
