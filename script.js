@@ -122,6 +122,15 @@ const menuData = [
     },
 
     {
+      name: "Doriloco",
+      rdPrice: null,
+      price: 15,
+      image: "images/j19.jpeg",
+      icon: "",
+      description: "Una deliciosa combinación de Doritos crujientes con salsas, vegetales y una variedad de toppings llenos de sabor, perfecta para disfrutar de un antojo diferente y lleno de textura."
+    },
+
+    {
       name: "Steak Sandwich",
       rdPrice: 600,
       price: 15,
