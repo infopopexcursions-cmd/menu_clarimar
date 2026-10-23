@@ -79,7 +79,7 @@ const menuData = [
     {
       name: "Mofongo de chicharrón",
       rdPrice: 1200,
-      price: 20,
+      price: 25,
       image: "images/j5.jpeg",
       icon: "🍌",
       description: "Plátano majado combinado con chicharrón crujiente, en una deliciosa receta tradicional."
@@ -88,7 +88,7 @@ const menuData = [
     {
       name: "Mofongo de camarones",
       rdPrice: 1500,
-      price: 25,
+      price: 28,
       image: "images/j9.jpg",
       icon: "🍤",
       description: "La combinación del plátano majado y el sabor del mar en una propuesta irresistible."
@@ -106,7 +106,7 @@ const menuData = [
     {
       name: "Los 3 golpes",
       rdPrice: 650,
-      price: 20,
+      price: 15,
       image: "images/j15.jpg",
       icon: "🍳",
       description: "Un desayuno dominicano tradicional que reúne mangú y sus tres acompañamientos clásicos. Consultar disponibilidad."
@@ -151,7 +151,7 @@ const menuData = [
     {
       name: "Costillitas BBQ",
       rdPrice: 850,
-      price: 15,
+      price: 18,
       image: "images/j11.jpg",
       icon: "🍖",
       description: "Costillas cubiertas de salsa barbacoa, con un toque dulce y ahumado."
